@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		56F730502F5704490071FCBD /* Vertical_Carousel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vertical_Carousel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		56F730502F5704490071FCBD /* Horizontal_Carousel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Horizontal_Carousel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		56F730522F5704490071FCBD /* Vertical_Carousel */ = {
+		56F730522F5704490071FCBD /* Horizontal_Carousel */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Vertical_Carousel;
+			path = Horizontal_Carousel;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -32,7 +32,7 @@
 		56F730472F5704490071FCBD = {
 			isa = PBXGroup;
 			children = (
-				56F730522F5704490071FCBD /* Vertical_Carousel */,
+				56F730522F5704490071FCBD /* Horizontal_Carousel */,
 				56F730512F5704490071FCBD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -40,7 +40,7 @@
 		56F730512F5704490071FCBD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				56F730502F5704490071FCBD /* Vertical_Carousel.app */,
+				56F730502F5704490071FCBD /* Horizontal_Carousel.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,9 +48,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		56F7304F2F5704490071FCBD /* Vertical_Carousel */ = {
+		56F7304F2F5704490071FCBD /* Horizontal_Carousel */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 56F7305B2F57044A0071FCBD /* Build configuration list for PBXNativeTarget "Vertical_Carousel" */;
+			buildConfigurationList = 56F7305B2F57044A0071FCBD /* Build configuration list for PBXNativeTarget "Horizontal_Carousel" */;
 			buildPhases = (
 				56F7304C2F5704490071FCBD /* Sources */,
 				56F7304D2F5704490071FCBD /* Frameworks */,
@@ -61,13 +61,13 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				56F730522F5704490071FCBD /* Vertical_Carousel */,
+				56F730522F5704490071FCBD /* Horizontal_Carousel */,
 			);
-			name = Vertical_Carousel;
+			name = Horizontal_Carousel;
 			packageProductDependencies = (
 			);
 			productName = Vertical_Carousel;
-			productReference = 56F730502F5704490071FCBD /* Vertical_Carousel.app */;
+			productReference = 56F730502F5704490071FCBD /* Horizontal_Carousel.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -85,7 +85,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 56F7304B2F5704490071FCBD /* Build configuration list for PBXProject "Vertical_Carousel" */;
+			buildConfigurationList = 56F7304B2F5704490071FCBD /* Build configuration list for PBXProject "Horizontal_Carousel" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -99,7 +99,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				56F7304F2F5704490071FCBD /* Vertical_Carousel */,
+				56F7304F2F5704490071FCBD /* Horizontal_Carousel */,
 			);
 		};
 /* End PBXProject section */
@@ -251,6 +251,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GYDC2D2B46;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -270,7 +271,7 @@
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -282,6 +283,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GYDC2D2B46;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -301,7 +303,7 @@
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -309,7 +311,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		56F7304B2F5704490071FCBD /* Build configuration list for PBXProject "Vertical_Carousel" */ = {
+		56F7304B2F5704490071FCBD /* Build configuration list for PBXProject "Horizontal_Carousel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				56F730592F57044A0071FCBD /* Debug */,
@@ -318,7 +320,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		56F7305B2F57044A0071FCBD /* Build configuration list for PBXNativeTarget "Vertical_Carousel" */ = {
+		56F7305B2F57044A0071FCBD /* Build configuration list for PBXNativeTarget "Horizontal_Carousel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				56F7305C2F57044A0071FCBD /* Debug */,
